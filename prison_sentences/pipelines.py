@@ -8,4 +8,21 @@
 
 class PrisonSentencesPipeline(object):
     def process_item(self, item, spider):
+        state = item['state']
+
+        if state == 'Georgia':
+            pass
+        elif state == 'New York':
+            pass
+        elif state == 'New Jersey':
+            pass
+        elif state == 'Ohio':
+            pass
+        elif state == 'Florida':
+            pass
+        elif state == 'Texas':
+            pass
+        elif state == 'California':
+            pass
+
         return item
